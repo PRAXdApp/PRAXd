@@ -8,3 +8,5 @@ class Permission(str, Enum):
     ADMIN_ADD_USER = "admin:add_user"
     ADMIN_EDIT_USER = "admin:edit_user"
     ADMIN_SEND_MAIL = "admin:send_mail"
+
+    ROOT_ALL = "root:root"
